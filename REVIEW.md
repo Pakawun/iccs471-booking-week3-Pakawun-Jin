@@ -19,7 +19,7 @@ from the conflict check, and updates the same object (R1-R3, R6). I also
 restored SPEC.md after noticing stray backticks had been added to it.
 
 ## Checks
-- Baseline commit: ce156d0 (unchanged starter, before implementation)
+- Baseline commit: ce156d0
 - Baseline: `uv run --python 3.12 python -m unittest -v test_baseline`
   -> Ran 6 tests, OK
 - Final suite: `uv run --python 3.12 python -m unittest -v test_baseline test_move_smoke test_student`
